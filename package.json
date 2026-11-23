@@ -1,0 +1,46 @@
+{
+  "name": "snow-village-safety",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "tts:generate": "node scripts/generate-tts.mjs",
+    "voice:check": "node scripts/check-voice.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimKyungmin-7788/winter-vacation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimKyungmin-7788/winter-vacation/issues"
+  },
+  "homepage": "https://github.com/KimKyungmin-7788/winter-vacation#readme",
+  "dependencies": {
+    "@kfonts/hakgyoansim-bareondotum": "^0.1.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "@supabase/supabase-js": "^2.119.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "three": "^0.187.0",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  },
+  "private": true,
+  "type": "module"
+}
